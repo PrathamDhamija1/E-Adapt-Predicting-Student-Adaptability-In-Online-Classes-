@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Increase My Adaptivity</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Navigation Bar */
+        .navbar {
+            background-color: #1a1a2e;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar a {
+            float: left;
+            color: #e0e0e0;
+            text-align: center;
+            padding: 16px 20px;
+            text-decoration: none;
+            font-size: 16px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .navbar a:hover {
+            background-color: #e94560;
+            color: #fff;
+        }
+
+        .navbar::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=2070&auto=format&fit=crop');
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: #fff;
+        }
+
+        .hero h1 {
+            font-size: 36px;
+            font-weight: 600;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Content Section */
+        .container {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        .measures-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+
+        .measures-section {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            flex-basis: 30%;
+            transition: transform 0.2s;
+        }
+
+        .measures-section:hover {
+            transform: translateY(-5px);
+        }
+
+        .measures-section h2 {
+            color: #1a1a2e;
+            font-size: 24px;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #e94560;
+            padding-bottom: 5px;
+        }
+
+        .measures-section p {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 10px;
+            text-align: left;
+        }
+
+        /* Image Section */
+        .image-container {
+            display: flex;
+            justify-content: space-around;
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .image-container img {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Footer */
+        footer {
+            background-color: #1a1a2e;
+            color: #e0e0e0;
+            text-align: center;
+            padding: 15px 0;
+            font-size: 14px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .navbar a {
+                float: none;
+                display: block;
+                text-align: left;
+                padding: 14px;
+            }
+
+            .hero h1 {
+                font-size: 28px;
+            }
+
+            .container {
+                padding: 15px;
+            }
+
+            .measures-container {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .measures-section {
+                flex-basis: 100%;
+            }
+
+            .measures-section h2 {
+                font-size: 20px;
+            }
+
+            .measures-section p {
+                font-size: 14px;
+            }
+
+            .image-container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .image-container img {
+                max-width: 100%;
+            }
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <a href="/">Home</a>
+        <a href="/predict">Predict My Adaptivity</a>
+        <a href="/adapt">Increase My Adaptivity</a>
+        <a href="updates.html">Daily Updates</a>
+        <a href="Bolly.html">Bollywood Mania</a>
+        <a href="Horo.html">Horoscope</a>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <h1>Increase Your Adaptivity</h1>
+    </div>
+
+    <!-- Content Section -->
+    <div class="container">
+        <div class="measures-container">
+            <div class="measures-section">
+                <h2>For Parents</h2>
+                <p>1. Create a conducive learning environment at home.</p>
+                <p>2. Establish a daily routine and set expectations for study time.</p>
+                <p>3. Provide support and guidance to your child in their learning journey.</p>
+                <p>4. Encourage active participation in online classes and discussions.</p>
+                <p>5. Foster a positive attitude towards learning and growth.</p>
+            </div>
+
+            <div class="measures-section">
+                <h2>For Faculty Mentors</h2>
+                <p>1. Design interactive and engaging online learning activities.</p>
+                <p>2. Provide timely feedback and guidance to students.</p>
+                <p>3. Encourage collaboration and peer-to-peer learning.</p>
+                <p>4. Offer additional resources and support for students' learning needs.</p>
+                <p>5. Foster a positive and inclusive learning environment.</p>
+            </div>
+
+            <div class="measures-section">
+                <h2>For Students</h2>
+                <p>1. Create a dedicated study space free from distractions.</p>
+                <p>2. Set goals and prioritize tasks to manage time effectively.</p>
+                <p>3. Actively participate in online classes and engage in discussions.</p>
+                <p>4. Take breaks and engage in physical activities for better focus.</p>
+                <p>5. Seek help from teachers and peers when needed.</p>
+            </div>
+        </div>
+
+        <div class="image-container">
+            <img src="https://www.viewsonic.com/library/wp-content/uploads/2020/07/LB0144.jpeg" alt="Image 1">
+            <img src="https://modernstudies.edu.np/wp-content/uploads/2021/01/Now-feature-DistanceLearning-1024x576.png" alt="Image 2">
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Daily Express. All rights reserved.</p>
+    </footer>
+</body>
+</html>
